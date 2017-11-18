@@ -1,0 +1,202 @@
+/* Kanchwala, Husain    Account:  jadrn024
+ CS545, Fall 2017
+ Project 3
+*/
+
+.lform .content .input {
+  width: 188px;
+  padding: 15px 25px; 
+  color: #9d9e9e;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px; 
+}
+
+.lform .header {
+  padding: 40px 30px 30px 30px;
+}
+
+.lform .header h1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height:34px;
+  color: #414848;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+  margin-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+#wrapper {
+  width: 300px;
+  height: 400px;
+  margin: 80px auto;
+  margin-left: 450px;
+}
+
+.error {
+  color: red;
+}
+
+.lform .content .password, .lform .content .pass-icon {
+  margin-top: 25px;
+}
+
+.lform .content .input:hover {
+  background: #dfe9ec;
+  color: #414848;
+}
+
+.lform {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  background: #f3f3f3;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.lform .content {
+  padding: 0 30px 25px 30px;
+}
+
+.lform .content .input:focus {
+  background: #dfe9ec;
+  color: #414848;
+}
+
+.lform .footer {
+  padding: 25px 30px 40px 30px;
+  overflow: auto;
+  background: #d4dedf;
+  border-top: 1px solid #fff; 
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+}
+
+.lform .footer .buttonl {
+  float: right;
+  padding: 11px 25px;
+  text-shadow: 0px 1px 0 rgba(0,0,0,0.25);  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.lform .footer .buttonr {
+  float: left;
+  padding: 11px 25px;
+  text-shadow: 0px 1px 0 rgba(0,0,0,0.25);  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.lform .footer .buttonl:hover {
+  border: 1px solid rgba(256,256,256,0.75); 
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.lform .footer .buttonl:focus {
+  position: relative;
+  bottom: -1px;
+  box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+.lform .footer .buttonr:hover {
+  border: 1px solid rgba(256,256,256,0.75); 
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.lform .footer .buttonr:focus {
+  position: relative;
+  bottom: -1px;
+  box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+h1 {
+    text-align: center;
+    }
+    
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: arial;
+    font-size: 120%;
+    }
+    
+td {
+    border: 1px solid #AAA;
+    padding: 5px;
+    }
+    
+tr:nth-child(even) {
+    background-color: #CCC;
+    }
+
+/* Kanchwala, Husain    Account:  jadrn024
+ CS545, Fall 2017
+ Project 2
+*/
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {background-color: #ddd;}
+
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.wrapper .header {
+  padding: 40px 30px 30px 30px;
+}
+
+.wrapper .header h1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height:34px;
+  color: #414848;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  margin: 30px auto;
+  margin-left: 20px;
+  width: 1200px;
+  position: static;
+  background: #f3f3f3;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.wrapper .content .image {
+  padding: 0 30px 25px 30px;
+}
+
+.wrapper .content {
+  padding: 0 30px 25px 30px;
+}
