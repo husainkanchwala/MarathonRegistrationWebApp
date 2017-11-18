@@ -255,7 +255,6 @@ function upload(file)
   }
   var formData = new FormData();
   formData.append("image", file.files[0]);
-  console.log("yes came here 111111111111111");
   client.open("post", "ajax_file_upload.php", true);
   client.setRequestHeader("Content-Type", "multipart/form-data");
   client.send(formData);  /* Send to server */ 
@@ -265,7 +264,6 @@ client.onreadystatechange = function()
 {
   if (client.readyState == 4 && client.status == 200) 
   {
-     console.log("yes came here 22222222222");
       if(client.responseText=="NotAuthorised"){
           window.location = "http://jadran.sdsu.edu/perl/jadrn018/logout.cgi";    
       }
